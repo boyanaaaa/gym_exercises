@@ -5,6 +5,9 @@ import SearchExercises from '../components/SearchExercises';
 import HeroBanner from '../components/HeroBanner';
 
 function Home() {
+  const [exercises, setExercises] = useState([]);
+  const [bodyPart, setBodyPart] = useState([]);
+
   return (
     <Box>
       <HeroBanner />
